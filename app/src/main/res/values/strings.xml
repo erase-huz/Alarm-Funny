@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Alarm Face</string>
+
+    <string name="menu">Menu</string>
+    <string name="action_home">Home</string>
+    <string name="action_dashboard">Dashboard</string>
+    <string name="action_notification">Notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment </string>
+    <string name="hello_blank_fragment2">Hello blank fragment 2</string>
+    <string name="hello_blank_fragment3">Hello blank fragment 3</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="ok">ok</string>
+    <string name="choose_ringtone">Choose ringtone</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+</resources>

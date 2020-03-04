@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_setting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.bigzero.alarmface.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Background:"
+            android:textColor="#000"
+            android:textSize="22dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgColor1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/color1" />
+
+                <ImageView
+                    android:id="@+id/imgColor2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/color2" />
+
+                <ImageView
+                    android:id="@+id/imgColor3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/color3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgColor4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/color4" />
+
+                <ImageView
+                    android:id="@+id/imgColor5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/color5" />
+
+                <ImageView
+                    android:id="@+id/imgColor6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/color6" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

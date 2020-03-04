@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_weather"
+        android:title="WEATHER"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/stopwatch">
+    </item>
+    <item
+        android:id="@+id/action_home"
+        android:title="HOME"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/alarm_clock">
+    </item>
+    <item
+        android:id="@+id/action_about"
+        android:title="ABOUT"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@mipmap/about">
+    </item>
+</menu>

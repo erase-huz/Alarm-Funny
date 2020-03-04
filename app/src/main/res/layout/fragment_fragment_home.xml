@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_h"
+    android:id="@+id/fragmentHome"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNotification"
+        android:text="No alarms set."
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:visibility="invisible"/>
+    
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv"></ListView>
+</FrameLayout>
