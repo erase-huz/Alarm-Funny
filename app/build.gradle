@@ -26,17 +26,17 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
-        implementation('com.google.code.gson:gson:2.3.1')
-        implementation fileTree(include: ['*.jar'], dir: 'libs')
+        api 'com.google.code.gson:gson:2.3.1'
+        api fileTree(include: ['*.jar'], dir: 'libs')
         androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
             exclude group: 'com.android.support', module: 'support-annotations'
         })
-        implementation 'com.android.support:appcompat-v7:25.3.1'
+        api 'com.android.support:appcompat-v7:25.3.1'
          
-        implementation 'com.android.support:design:25.3.1'
-        implementation 'com.android.support:support-v4:25.3.1'
+        api 'com.android.support:design:25.3.1'
+        api 'com.android.support:support-v4:25.3.1'
         testImplementation 'junit:junit:4.12'
-        implementation 'com.google.android.gms:play-services-vision:10.2.0'
-        implementation 'com.jayway.android.robotium:robotium:5.6.3'
+        api 'com.google.android.gms:play-services-vision:10.2.0'
+        api 'com.jayway.android.robotium:robotium:5.6.3'
     }
 }
