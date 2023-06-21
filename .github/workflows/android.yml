@@ -29,3 +29,12 @@ jobs:
       with:
           name: expense-manager.apk
           path: app/build/outputs/apk/debug/app-debug.apk
+          - name: Commit files # transfer the new html files back into the repository
+      run: |
+        git config --local user.name "erase-huz"
+        git add ./docs
+        git commit -m "Updating the repository GitHub html pages in the docs folder"
+    - name: Push changes # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
